@@ -7,6 +7,6 @@ https://github.com/xiaozhi-oss/youyi-web
 聊天系统可以作为项目的亮点之一，主要使用 webSocket API 来实现
 
 # 启动
-配置好 mysql 就可以启动了
+配置好 mysql 就可以启动了，sql脚本在 resources\static\sql 目录下
 注意：还需要手动添加 京东的 API 包，它放在了 resources\lib 目录下：SF-CSIM-EXPRESS-SDK-V2.1.7.jar
 一切准备就绪就启动项目
