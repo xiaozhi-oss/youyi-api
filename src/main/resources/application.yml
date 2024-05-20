@@ -1,0 +1,28 @@
+server:
+  port: 8888
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB          # 最大上传文件大小
+      max-request-size: 20MB       # 最大请求大小
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/youyi?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+  
+  cache:
+    type: ehcache
+
+upload:
+  save:
+    path: D:/upload/
+
+mybatis-plus:
+  mapper-locations: 
+    - classpath:mapper/*.xml
+  type-aliases-package: com.youyi.api.model.entity

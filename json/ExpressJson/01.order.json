@@ -1,0 +1,38 @@
+{
+	"cargoDetails": [{
+		"amount": 308.0,
+		"count": 2.0,
+		"name": "手工穿戴甲",
+		"unit": "个",
+		"volume": 0.0,
+		"weight": 0.1
+	}],
+	"contactInfoList": [{
+		"address": "广州商学院",
+		"city": "广州市",
+		"company": "有意美甲专营店",
+		"contact": "小明",
+		"contactType": 1,
+		"county": "黄埔区",
+		"mobile": "17006805888",
+		"province": "广东省"
+	}, {
+		"address": "湖北省襄阳市襄城区环城东路122号",
+		"city": "襄阳市",
+		"contact": "郭襄阳",
+		"county": "襄城区",
+		"contactType": 2,
+		"mobile": "18963828829",
+		"province": "湖北省"
+	}],
+	"customsInfo": {},
+	"expressTypeId": 2,
+	"extraInfoList": [],
+	"isOneselfPickup": 0,
+	"language": "zh-CN",
+	"orderId": "1737464062696497152",
+	"parcelQty": 1,
+	"payMethod": 1,
+	"totalWeight": 6,
+	"monthlyCard":7551234567
+	}
